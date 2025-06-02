@@ -3,8 +3,8 @@
 ## Apartado 1
 
 db.listingsAndReviews.find({}, {name: 1, number_of_reviews: 1})
-  .sort({number_of_reviews: 1}) 
-  .limit(-1)
+  .sort({number_of_reviews: -1}) 
+  .limit(1)
 
 ## Apartado 2
 
